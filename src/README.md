@@ -40,7 +40,7 @@
   pasta: cd my-app;
   inicialização: npm start;
   utilização do api-server produtos: json-server --watch db.json --port 3005 ;
-  utilização do api-server usuário: json-server --watch db.json --port 3118;
+  utilização do api-server usuário: json-server --watch db.json --port 3812;
 
   (#Créditos) A referência para este projeto se deu através do curso Italents:(https://lms.italents.com.br/login), e do professor Ivo 
   que juntos através de seu programa de bootcamp FrontEnd, disponibilizaram seus conhecimentos e puderam me proporcionar um bom conteúdo e ótimo conhecimento para a elaboração deste projeto.
