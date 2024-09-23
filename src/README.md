@@ -1,0 +1,30 @@
+# Cadastro de produtos e usuários para uma Confeitaria
+
+## Descrição
+  A princípio este projeto foi desenvolvido para cadastrar produtos e usuários para uma connfitaria, porém ele pode ser usado para um E-comerce em geral, pois seu design de exibição de produtos tanto por produto individual como por categorias permite com que o cliente possa escolher seu produto de forma satisfatória.
+
+  As tecnologias utilizadas para a sua criação permitem ao projeto ter:
+  Rapidez, Flexibilidade, Facilidade de uso, Reutilização de código, simplicidade de depuração, desempenho e comatibilidade com outras bibliotecas e frameworks.
+
+  O projeto em sua grande parte foi desenvolvido com uma estrutura lógica bem pensada e bem elaborada seu algorítimo exigiu um bom raciocínio lógico, sua interface é bem estruturada para se adaptar a diversos tipos de utilizações, pois poderam ser implementados outros tipos de uso.
+
+# Sumário
+=====================
+<!--ts-->
+ * [Sobre] 
+ * [uso]
+ * [Como_usar] 
+ * [Local_files]
+
+ (#Sobre) Este projeto tem o objetivo de satisfazer as necessidades de um E-comerce em geral, com a atração de seus clientes, a disponiblidadde de exibição de seus produtos e o cadastramento de seus usuários.
+
+ (#uso) Para usa-lo este projeto deve ser acessado atrvés de seu link disposto.  
+
+ (#Como-usar) Logo no início da página o usuário encontrará uma lista de navegação com seus links dispostos, seus links são: Produtos, Cadastro de produtos, Cadastre-se.
+ Clicando em cada link, este levará o usuário para a parte da página desejada.
+  A Seção Produtos disponibiliza uma série de 5 botões e um campo de busca os botões selecionam as categorias dos produtos desejados, já o campo de busca seleciona tanto o produto individualmente como sua categoria.
+  Indo para a próxima seção, o usuário encontrará um formulário onde este poderá cadastrar seu produto, adicionando nos campos: A imagem do produto, o Nome do produto, a descição do produto e sua categoria.
+  Ao clicar no botão, o seu produto automaticamente estará disponível no campo de exibição dos produtos.
+  A última seção da página apresenta um campo de cadastro para o usuário onde é possivel o usuário se cadastrar com seu nome e e-mail.
+
+  

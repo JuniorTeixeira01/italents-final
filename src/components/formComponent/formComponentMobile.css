@@ -1,0 +1,19 @@
+/*
+ Com o uso do display flex o mobile da página é menos complexo de definir
+ 
+*/
+@media(min-width:390px) and (max-width:520px){
+    .container-form{
+        width: 90%;
+    }
+}
+@media(min-width:521px) and (max-width:700px){
+    .container-form{
+        width: 90%;
+    }
+}
+@media(min-width:701px) and (max-width:1000px){
+    .container-form{
+        width: 90%;
+    }
+}

@@ -1,0 +1,16 @@
+/*
+ Definição dos estílos do componente Form.
+*/
+.container-form{
+    border-radius: 10px;
+    border: 1px solid #4F2F0E;
+    background-color: #8DB8B0;
+    width: 50%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    justify-content: space-around;
+}

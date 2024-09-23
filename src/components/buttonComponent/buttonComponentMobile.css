@@ -1,0 +1,16 @@
+/*
+ Arquivo para comportamento do botão em telas com mínimo de 390px
+ até 700px, para especificar o comportamento mobile da página
+*/
+@media(min-width:390px) and (max-width: 520px){
+    .container-button button{
+       width: 100px;
+       font-size: 12px;
+    }
+}
+@media(min-width:520px) and (max-width: 700px){
+    .container-button button{
+       width: 150px;
+       font-size: 16px;
+    }
+}

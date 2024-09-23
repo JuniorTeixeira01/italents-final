@@ -1,0 +1,30 @@
+/*
+  Arquivo mobile do componente Header.
+*/
+@media(min-width: 390px) and (max-width:520px){
+    .container-header{
+        font-size: 12px;
+    }
+    .container-header_listas{
+        gap: 10px;
+        font-size: 10px;
+    }
+}
+@media(min-width: 521px) and (max-width:750px){
+    .container-header{
+        font-size: 18px;
+    }
+    .container-header_listas{
+        gap: 15px;
+        font-size: 14px;
+    }
+}
+@media(min-width: 751px) and (max-width:1000px){
+    .container-header{
+        font-size: 22px;
+    }
+    .container-header_listas{
+        gap: 20px;
+        font-size: 18px;
+    }
+}

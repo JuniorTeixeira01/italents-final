@@ -1,0 +1,30 @@
+/*
+  Arquivo para comportamento mobile do cards em telas de no mínimo 
+  390px e no máximo a telas de 700px.
+  com o uso do display flex e suas propriedades o mobile fica da página 
+  fica bem menos complicado de definir.
+*/
+@media(min-width:390px) and (max-width:520px){
+    .container-card{
+        width: 250px;
+        height: 250px;
+    }
+    .container-card_descricao h3{
+        font-size: 15px;
+    }
+    .container-card_descricao p{
+        font-size: 12px;
+    }
+}
+@media(min-width:521px) and (max-width:700px){
+    .container-card{
+        width: 280px;
+        height: 280px;
+    }
+    .container-card_descricao h3{
+        font-size: 18px;
+    }
+    .container-card_descricao p{
+        font-size: 15px;
+    }
+}

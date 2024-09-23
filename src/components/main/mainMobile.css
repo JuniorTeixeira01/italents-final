@@ -1,0 +1,18 @@
+/*
+  Arquivo mobile do container principal.
+*/
+@media(min-width:390px) and (max-width: 520px){
+    .container-main{
+        max-height: 6000px;
+    }
+    .container-seletores{
+        display: flex;
+        gap: 30px;
+    }
+    .container-main_lista{
+        max-height: 6000px;
+    }
+    .container-form_produto h2{
+        font-size: 22px;
+    }
+}

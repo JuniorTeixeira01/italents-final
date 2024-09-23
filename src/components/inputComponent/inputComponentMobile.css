@@ -1,0 +1,9 @@
+/*
+  Uso do arquivo para definir o mobile do component input
+*/
+@media(min-width:390px) and (max-width:520px){
+    .container-input-component input{
+        width: 270px;
+       font-size: 12px;
+    }
+}

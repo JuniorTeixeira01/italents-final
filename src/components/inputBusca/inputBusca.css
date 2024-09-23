@@ -1,0 +1,27 @@
+/*
+ A definição do estilo  do campo de busca é feita com um container
+ pai, com dois componentes filhos uma imagem e um input.
+*/
+.container-busca{
+    width: 450px;
+    height: 40px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: #FDFFED;
+    padding: 0 20px 0 20px;
+    border-radius: 20px;
+}
+.container-busca img{
+    width: 20px;
+    height: 20px;
+}
+.container-busca input{
+    width: 90%;
+    height: 98%;
+    background-color: #FDFFED;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: #4F2F0E;
+}

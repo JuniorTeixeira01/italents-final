@@ -1,0 +1,37 @@
+/* 
+ É definido neste arquivo o estilo do header, onde temos o container
+ pai o título que é definido com o uso do display flex ao lado do 
+ container filho, que compreende os links que direcionam o usuário
+ diretamente para a página desejada, ou seja para os produtos
+ o cadastro dos produtos ou o cadastro do usuário.
+*/
+.container-header{
+    position: fixed;
+    background-color: #FDFFED;
+    color: #4F2F0E;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container-header_listas{
+    list-style: none;
+    max-width: 1200px;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.container-header_listas li a{
+    text-decoration: none;
+    font-weight: 100;
+    text-shadow: 1px 1px 2px #4F2F0E;
+    color: #4F2F0E;
+}

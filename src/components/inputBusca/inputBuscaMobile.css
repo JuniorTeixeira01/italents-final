@@ -1,0 +1,11 @@
+/*
+  Definição do mobile do campo de busca.
+*/
+@media(min-width:390px) and (max-width:520px){
+    .container-busca{
+        width: 200px;
+    }
+    .container-busca input{
+        font-size: 12px;
+    }
+}

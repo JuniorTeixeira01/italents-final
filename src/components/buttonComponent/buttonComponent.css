@@ -1,0 +1,14 @@
+/*
+ Neste arquivo css, faço a definição do tamanho do botão e suas 
+ propriedades.
+*/
+.container-button button{
+    width: 180px;
+    height: 40px;
+    background-color: #8DB8B0;
+    border-radius: 10px;
+    color: #4F2F0E;
+    font-weight: 600;
+    font-size: 18px;
+    font-style: italic;
+}
