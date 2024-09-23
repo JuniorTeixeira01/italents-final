@@ -14,6 +14,7 @@
  * [Sobre] 
  * [uso]
  * [Como_usar] 
+ * [Pré_Requisitos]
  * [Local_files]
  * [Remote_files]
  * [Tecnologias]
@@ -31,6 +32,17 @@
   Ao clicar no botão, o seu produto automaticamente estará disponível no campo de exibição dos produtos.
   A última seção da página apresenta um campo de cadastro para o usuário onde é possivel o usuário se cadastrar com seu nome e e-mail.
 
+  (#Pré_Requisitos) Para garantir o perfeito funcionamento e exibição dos produtos na página, é essencial a comunicação com o servidor.
+  para este projeto foi usado o json-server, que faz a simulação de um servido, para a comunicação com o FrontEnd.
+
+  Inicie o json-server com o seguinte comando.
+
+  No terminal com o do node execute: json-server --watch db.json --port 3005
+  (Este comando faz funcionar o arquivo db.json, que é o que contém o código dos produtos assim como para cadastrar novos produto).
+
+  No terminal com o node execute:  json-server --watch dbUser.json --port 3812
+  (Este comando faz rodar o arquivo dbUser.json que armazena o código de cadastro do usuário).
+
   (#Local_files) https://github.com/JuniorTeixeira01/italents-final.git
  
   (#Remote_files) https://italents-confeitaria.vercel.app/ 
@@ -40,7 +52,7 @@
   pasta: cd my-app;
   inicialização: npm start;
   utilização do api-server produtos: json-server --watch db.json --port 3005 ;
-  utilização do api-server usuário: json-server --watch db.json --port 3812;
+  utilização do api-server usuário: json-server --watch dbUser.json --port 3812;
 
   (#Créditos) A referência para este projeto se deu através do curso Italents:(https://lms.italents.com.br/login), e do professor Ivo 
   que juntos através de seu programa de bootcamp FrontEnd, disponibilizaram seus conhecimentos e puderam me proporcionar um bom conteúdo e ótimo conhecimento para a elaboração deste projeto.
