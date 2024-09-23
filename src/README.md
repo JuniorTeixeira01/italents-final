@@ -44,3 +44,6 @@
 
   (#Créditos) A referência para este projeto se deu através do curso Italents:(https://lms.italents.com.br/login), e do professor Ivo 
   que juntos através de seu programa de bootcamp FrontEnd, disponibilizaram seus conhecimentos e puderam me proporcionar um bom conteúdo e ótimo conhecimento para a elaboração deste projeto.
+
+  ## Conclusão 
+    Este aplicativo é excelente para utilização em E-comerce e sua funcinalidades sua interface proporciona ao usuário uma esperiência muto agradável.
